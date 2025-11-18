@@ -1,1 +1,2 @@
-web: gunicorn DJV_flask_app:app
+web: gunicorn DJV_flask_app:app -k eventlet
+
